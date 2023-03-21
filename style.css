@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;700;900&display=swap');
+
+*,
+*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+  text-decoration: 0;
+  box-sizing: border-box;
+  transition: all ease 0.2s;
+  list-style-type: none;
+}
+
+body{
+  position:relative;
+  height:2146px;
+  
+  font-family: 'Barlow', sans-serif;
+
+  
+}
+.sablona-desktop{
+  position:absolute;
+  top:-4rem;;
+  left:50%;
+  transform:translateX(-50%);
+  width:90%;
+  opacity:.8;
+  z-index:-3;
+}
+
+.container{
+  margin-top:4rem;
+  margin-left:auto;
+  margin-right:auto;
+  max-width:1440px;
+  border: 2px solid red;
+}
+
+header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding: 0 3.5rem;
+}
+
+.logo{
+  width:50px;
+}
+
+.btn{
+  background: #e7eff2;
+  color: #121f31;
+  padding: 1.3rem 2rem;
+  text-transform: uppercase;
+  border:none;
+  outline:none;
+  border-radius: .5rem;
+  opacity: .4;
+  letter-spacing: -2.25px;
+   font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.625rem;
+}
+
+
+/* ******************************** */
+/* attribution */
+.attribution {
+  display: none;
+}
