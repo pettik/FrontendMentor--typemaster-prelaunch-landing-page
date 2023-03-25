@@ -30,7 +30,8 @@ body{
 } 
 
 h1,
-h2{
+h2,
+h3{
   text-transform:uppercase;
   color:#172643;
   font-weight:900;
@@ -147,7 +148,7 @@ header{
   margin-top:2rem;
   display:flex;
   position: relative;
-  column-gap:2rem;
+  column-gap:2.5rem;
   height: 36rem;
 }
 
@@ -172,7 +173,8 @@ header{
 }
 
 .middle-section .text-part{
-  max-width:20rem;
+  max-width:26rem;
+  padding-left:7rem;
 }
 
 .middle-section .image-part{
@@ -200,10 +202,37 @@ header{
 
 .middle-section .text-part h2{
   padding-top: 8.5rem;
-  font-size: 2.25rem;
+  font-size: 2.5rem;
+  letter-spacing: -1.5px;
+  margin-bottom:2.21rem;
 }
 
+.middle-section .text-part  p{
+  font-size: 1.22rem;
+  color: #9298a6;
+  line-height:1.55;}
+/* ******************************** */
+/* botom section */
+  
+  .bottom-section{
+    margin-top:13rem;
+    display:flex;
+    column-gap: 3rem;
+  }
+  
+  .bottom-section .bottom-img{
+    background: #f26617;
+    display:inline-flex;
+    width:75px;
+    height: 75px;
+    border-radius: 1.2rem;
+    align-items:center;
+    justify-content: center;
+  }
 
+.bottom-img{
+  margin-bottom:3.6rem;
+}
 /* ******************************** */
 /* attribution */
 .attribution {
