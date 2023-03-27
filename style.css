@@ -269,3 +269,26 @@ footer span{
 .attribution {
   display: none;
 }
+
+.sablona-tablet{
+  display:none;
+}
+
+@media screen and (max-width: 850px){
+  .sablona-desktop{
+    display:none;
+  }
+  
+  .sablona-tablet{
+    display:block;
+      position:absolute;
+  top:50%;;
+  left:50%;
+  transform:translate(-50%, -50%);
+  width:100%;
+    height:auto;
+  opacity:.8;
+/*    opacity:0; */
+  z-index:-3;
+  }
+}
