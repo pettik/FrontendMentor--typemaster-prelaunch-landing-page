@@ -144,6 +144,7 @@ header {
 .middle-section {
   margin-top: 2rem;
   display: flex;
+  flex-direction:row;
   position: relative;
   column-gap: 2.5rem;
   height: 36rem;
@@ -177,6 +178,11 @@ header {
   position: relative;
   overflow: hidden;
   border-radius: 1rem;
+}
+
+.middle-section-obrazky{
+  display:flex;
+  column-gap:2rem;
 }
 
 .middle-section .image-part.oranged::before {
@@ -370,4 +376,14 @@ footer span {
     margin-right: -7rem;
     max-width: 500px;
   }
+
+  .middle-section{
+    flex-direction:column;
+  }
+  
+  .middle-section .blue-box{
+    display:none;
+  }
+
+
 }
