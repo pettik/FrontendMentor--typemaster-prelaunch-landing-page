@@ -423,4 +423,12 @@ footer span {
     padding-top: 5.7rem;
     font-size: 1.1rem;
   }
+  
+  .bottom-section{
+    flex-wrap:wrap;
+  }
+  
+  .bottom-section article{
+    max-width:45%;
+  }
 }
