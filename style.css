@@ -426,6 +426,7 @@ footer span {
   
   .bottom-section{
     flex-wrap:wrap;
+margin-top: 3rem;
   }
   
   .bottom-section article{
