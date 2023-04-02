@@ -284,6 +284,10 @@ footer span {
 }
 
 @media screen and (max-width: 850px) {
+  body {
+    overflow-x: hidden;
+  }
+
   .sablona-desktop {
     display: none;
   }
@@ -308,6 +312,7 @@ footer span {
     max-width: 750px;
     padding-left: 0;
     padding-right: 0;
+    /* overflow: hidden; */
   }
 
   .logo {
@@ -360,8 +365,9 @@ footer span {
 
   .keyboard-image-tablet {
     display: block;
-    height: 100%;
-    width: 400px;
+    max-height: 460px;
+    width: auto;
+    margin-right: -6.5rem;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
     border-radius: 1rem;
@@ -377,7 +383,7 @@ footer span {
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
 
-    margin-right: -7rem;
+    margin-right: -5rem;
     max-width: 500px;
   }
 
@@ -385,7 +391,7 @@ footer span {
   /* middle-section */
   .middle-section {
     flex-direction: column;
-    margin-top: 2.5rem;
+    margin-top: 2rem;
   }
 
   .middle-section .blue-box {
@@ -415,21 +421,23 @@ footer span {
     padding-top: 4.8rem;
     line-height: 1.05;
     font-size: 2.3rem;
-    margin-bottom: 0;
+    margin-top: 0.5rem;
     margin-right: 6.95rem;
   }
 
   .middle-section .text-part p {
-    padding-top: 5.7rem;
+    padding-top: 6.2rem;
     font-size: 1.1rem;
   }
-  
-  .bottom-section{
-    flex-wrap:wrap;
-margin-top: 3rem;
+
+  .bottom-section {
+    flex-wrap: wrap;
   }
-  
-  .bottom-section article{
-    max-width:45%;
+
+  .bottom-section article {
+    width: 47.3%;
   }
+
+  /* ******************************** */
+  /* bottom-section */
 }
