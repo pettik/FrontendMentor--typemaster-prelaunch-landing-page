@@ -240,7 +240,7 @@ header {
   margin-bottom: 3.8rem;
 }
 
-.bottom-section article:nth-of-type(2) {
+.bottom-section article:nth-of-type(2n) {
   padding-left: 1rem;
 }
 
@@ -430,14 +430,40 @@ footer span {
     font-size: 1.1rem;
   }
 
+  /* ******************************** */
+  /* bottom-section */
+
   .bottom-section {
     flex-wrap: wrap;
+    margin-top: 8rem;
+    column-gap: 0.5rem;
   }
 
   .bottom-section article {
     width: 47.3%;
+    margin-bottom: 5rem;
+  }
+  .bottom-section .bottom-img {
+    margin-bottom: 2.8rem;
+    width: 72px;
+    height: 72px;
+  }
+  .bottom-section article h3 {
+    margin-bottom: 1.5rem;
+  }
+  .bottom-section article p {
+    font-size: 1.08rem;
+    padding-right: 3rem;
   }
 
-  /* ******************************** */
-  /* bottom-section */
+  footer {
+    margin-top: 1.1rem;
+  }
+
+  footer p {
+    margin-right: 0;
+    font-size: 1.1rem;
+    text-align: center;
+    color: #8388a2;
+  }
 }
