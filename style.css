@@ -500,6 +500,12 @@ footer span {
   .container {
     opacity: 0.1;
     max-width: 99vw;
+    padding: 2rem;
+  }
+
+  .container .keyboard-image-tablet,
+  .keyboard-image {
+    display: none;
   }
 
   .keyboard-image-mobile {
