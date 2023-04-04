@@ -131,10 +131,12 @@ header {
 
 .keyboard-image {
   border-radius: 1rem;
-  width: 100%;
+  height: 580px;
+  margin-right: -10rem;
 }
 
-.keyboard-image-tablet {
+.keyboard-image-tablet,
+.keyboard-image-mobile {
   display: none;
 }
 
@@ -279,7 +281,8 @@ footer span {
   display: none;
 }
 
-.sablona-tablet {
+.sablona-tablet,
+.sablona-mobile {
   display: none;
 }
 
@@ -288,7 +291,8 @@ footer span {
     overflow-x: hidden;
   }
 
-  .sablona-desktop {
+  .sablona-desktop,
+  .sablona-mobile {
     display: none;
   }
 
@@ -359,7 +363,8 @@ footer span {
     letter-spacing: -0.4px;
   }
 
-  .keyboard-image {
+  .keyboard-image,
+  .keyboard-image-mobile {
     display: none;
   }
 
@@ -465,5 +470,45 @@ footer span {
     font-size: 1.1rem;
     text-align: center;
     color: #8388a2;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    overflow-x: hidden;
+    max-width: 100vw;
+  }
+
+  .sablona-desktop,
+  .sablona-tablet {
+    display: none;
+  }
+
+  .sablona-mobile {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 99vw;
+    height: auto;
+    opacity: 0.8;
+    /*    opacity:0; */
+    z-index: -3;
+  }
+
+  .container {
+    opacity: 0.1;
+    max-width: 99vw;
+  }
+
+  .keyboard-image-mobile {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    margin-right: -6.5rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-radius: 1rem;
   }
 }
