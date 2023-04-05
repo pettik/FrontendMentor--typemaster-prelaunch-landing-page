@@ -2,97 +2,45 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Typemaster prelaunch landing page</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <meta
+      name="description"
+      content="FrontendMentor site - Typemaster prelaunch landing page"
+    />
+    <meta name="author" content="Petr Bednarski" />
+
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <img
-      src="https://github.com/pettik/FrontendMentor--typemaster-prelaunch-landing-page/blob/main/design/desktop-design.jpg?raw=true"
-      class="sablona-desktop"
-    />
-
-    <img
-      src="https://raw.githubusercontent.com/pettik/FrontendMentor--typemaster-prelaunch-landing-page/main/design/tablet-design.jpg"
-      class="sablona-tablet"
-    />
-    <img
-      src="https://raw.githubusercontent.com/pettik/FrontendMentor--typemaster-prelaunch-landing-page/main/design/mobile-design.jpg"
-      class="sablona-mobile"
-    />
-
+    <div class="sablona">
+      <picture>
+        <source media="(min-width: 992px)" srcset="design/desktop-design.jpg" />
+        <source media="(min-width: 768px)" srcset="design/tablet-design.jpg" />
+        <img src="design/mobile-design.jpg" alt="…" />
+      </picture>
+    </div>
     <div class="container">
       <header>
-        <img
-          src="https://raw.githubusercontent.com/pettik/FrontendMentor--typemaster-prelaunch-landing-page/db7522dc1356cb32bae1aa073033d07b91246cee/assets/shared/logo.svg"
-          class="logo"
-          alt="logo"
-        />
-        <button class="btn">Pre-order now</button>
+        <img src="assets/shared/logo.svg" alt="logo image" c/>
+        <a href="#" class="btn">Pre-order now</a>
       </header>
-
-      <section class="header-section">
-        <div class="blue-box"></div>
-        <div class="text-part">
-          <h1>
-            Typemaster <br />
-            keyboard
-          </h1>
-          <p>
-            Improve your productivity and gaming without breaking the bank.
-            Upgrade to a high quality mechanical typing experience.
-          </p>
+      <section class="upperpart">
+        <article>
+          <h1>Typemaster <br />keyboard</h1>
           <div class="buttons">
-            <button class="btn orange">Pre-order now</button>
+            <a href="#" class="btn orange">Pre-order now</button>
             <a href="#" class="btn trans"> release on 5/27 </a>
           </div>
-        </div>
-        <div class="image-part">
-          <img
-            src="https://raw.githubusercontent.com/pettik/FrontendMentor--typemaster-prelaunch-landing-page/main/assets/desktop/image-keyboard.jpg"
-            class="keyboard-image"
-            alt="keyboard image"
-          />
-          <img
-            src="https://github.com/pettik/FrontendMentor--typemaster-prelaunch-landing-page/blob/main/assets/tablet/image-keyboard.jpg?raw=true"
-            class="keyboard-image-tablet"
-            alt="keyboard image"
-          />
-          <img
-            src="https://raw.githubusercontent.com/pettik/FrontendMentor--typemaster-prelaunch-landing-page/main/assets/mobile/image-keyboard.jpg"
-            class="keyboard-image-mobile"
-            alt="keyboard image"
-          />
-        </div>
+        </article>
       </section>
-      <section class="middle-section">
-        <div class="blue-box"></div>
-        <div class="middle-section-obrazky">
-          <div class="image-part oranged">
-            <img
-              src="https://raw.githubusercontent.com/pettik/FrontendMentor--typemaster-prelaunch-landing-page/main/assets/desktop/image-phone-and-keyboard.jpg"
-              class="keyboard2-image"
-              alt="keyboard2 image"
-            />
-            <img
-              src="https://raw.githubusercontent.com/pettik/FrontendMentor--typemaster-prelaunch-landing-page/main/assets/tablet/image-phone-and-keyboard.jpg"
-              class="keyboard2-tablet-image"
-              alt="keyboard2 image"
-            />
-          </div>
-          <div class="image-part">
-            <img
-              src="https://raw.githubusercontent.com/pettik/FrontendMentor--typemaster-prelaunch-landing-page/main/assets/desktop/image-glass-and-keyboard.jpg"
-              class="keyboard3-image"
-              alt="keyboard image"
-            />
-            <img
-              src="https://raw.githubusercontent.com/pettik/FrontendMentor--typemaster-prelaunch-landing-page/main/assets/tablet/image-glass-and-keyboard.jpg"
-              class="keyboard3-tablet-image"
-              alt="keyboard image"
-            />
-          </div>
+      <section class="middlepart">
+        <div class="images-part">
+          <div class="orange-image"></div>
+          <div class="image area"></div>
         </div>
         <div class="text-part">
           <h2>
@@ -106,12 +54,11 @@
           </p>
         </div>
       </section>
-
-      <section class="bottom-section">
+      <section class="bottompart">
         <article>
           <div class="bottom-img">
             <img
-              src="https://raw.githubusercontent.com/pettik/FrontendMentor--typemaster-prelaunch-landing-page/50ad69dcc58485c5507de2cf864ad8204bbac451/assets/shared/icon-compatible.svg"
+              src="assets/shared/icon-compatible.svg"
               alt="image display"
             />
           </div>
@@ -126,7 +73,7 @@
         <article>
           <div class="bottom-img">
             <img
-              src="https://raw.githubusercontent.com/pettik/FrontendMentor--typemaster-prelaunch-landing-page/50ad69dcc58485c5507de2cf864ad8204bbac451/assets/shared/icon-bluetooth.svg"
+              src="assets/shared/icon-bluetooth.svg"
               alt="image bluetooth"
             />
           </div>
@@ -141,7 +88,7 @@
         <article>
           <div class="bottom-img">
             <img
-              src="https://raw.githubusercontent.com/pettik/FrontendMentor--typemaster-prelaunch-landing-page/50ad69dcc58485c5507de2cf864ad8204bbac451/assets/shared/icon-battery.svg"
+              src="assets/shared/icon-battery.svg"
               alt="image battery"
             />
           </div>
@@ -156,7 +103,7 @@
         <article>
           <div class="bottom-img">
             <img
-              src="https://raw.githubusercontent.com/pettik/FrontendMentor--typemaster-prelaunch-landing-page/50ad69dcc58485c5507de2cf864ad8204bbac451/assets/shared/icon-light.svg"
+              src="assets/shared/icon-light.svg"
               alt="image battery"
             />
           </div>
@@ -168,10 +115,11 @@
           </p>
         </article>
       </section>
+
+      <footer>
+        <p><span>Typemaster 2021</span> | All Rights Reserved</p>
+      </footer>
     </div>
 
-    <footer>
-      <p><span>Typemaster 2021</span> | All Rights Reserved</p>
-    </footer>
   </body>
 </html>
