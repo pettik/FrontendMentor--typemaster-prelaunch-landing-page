@@ -70,7 +70,7 @@ header img {
 
 .btn {
   text-transform: uppercase;
-  padding: 1em 1.3em;
+  padding: 1em 1.08em;
   border-radius: 0.5em;
   background-color: #e7eff2;
   color: #1a2540;
@@ -113,6 +113,28 @@ header img {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
   opacity: 0.8;
+}
+
+.orange {
+  background: #ee6617;
+  color: #fff;
+  margin-right: 1.2em;
+}
+
+.trans {
+  background: transparent;
+}
+
+/*
+MIDDLEPART */
+
+section.middlepart {
+  margin-top: 36rem;
+}
+.middlepart .images-part {
+  display: flex;
+  flex-direction: row;
+  max-height: 10em;
 }
 
 @media screen and (min-width: 769px) {
