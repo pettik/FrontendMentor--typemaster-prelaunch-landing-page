@@ -134,7 +134,48 @@ section.middlepart {
 .middlepart .images-part {
   display: flex;
   flex-direction: row;
-  max-height: 10em;
+  opacity: 0.5;
+}
+
+.orange-image {
+  display: block;
+  transform: translateX(-1.5rem);
+}
+
+.middle-phone-keyboard-image img {
+  height: 16rem;
+  width: 10rem;
+  transform: translateX(-1.5rem);
+  border-bottom-right-radius: 2em;
+  border-top-right-radius: 2em;
+}
+
+.image-area {
+  width: 20rem;
+  border-radius: 2em;
+  transform: translateX(-1rem);
+  max-height: 16rem;
+  overflow: hidden;
+}
+
+.middle-glass-image-image img {
+  height: 100%;
+}
+
+.middlepart .text-part {
+  margin-top: 6.3em;
+  text-align: center;
+}
+
+.middlepart .text-part h2 {
+  font-size: 2.7em;
+}
+
+.middlepart p {
+  margin-top: 2rem;
+  line-height: 1.5;
+  font-size: 1.4em;
+  color: #7f88a6;
 }
 
 @media screen and (min-width: 769px) {
