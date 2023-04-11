@@ -211,17 +211,44 @@ section.middlepart {
   align-items: center;
 }
 .bottom-img {
-  margin-bottom: 5rem;
+  margin-bottom: 4rem;
   max-width: max-content;
-  padding: 1.5rem;
+  padding: 1.8rem 1.8rem;
   border-radius: 1rem;
   background: #ee6617;
   color: white;
 }
 
 .bottom-img img {
-  width: auto;
-  height: 1.7rem;
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.bottompart h3 {
+  font-size: 2.08rem;
+  margin-bottom: 2.05rem;
+}
+
+.bottompart p {
+  font-size: 1.35rem;
+  line-height: 1.6;
+  margin-bottom: 5.3rem;
+}
+
+footer {
+  padding-top: 3rem;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+footer span {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 350px) {
+  body {
+    font-size: 14px;
+  }
 }
 
 @media screen and (min-width: 769px) {
