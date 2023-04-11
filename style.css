@@ -96,7 +96,8 @@ header img {
 }
 
 .upperpart .buttons {
-  margin: 4rem 0 6.5rem;
+  margin: 2.5rem 0 5.5rem;
+  display: flex;
 }
 
 .upper-keyboard-image {
@@ -121,7 +122,7 @@ header img {
 .orange {
   background: #ee6617;
   color: #fff;
-  margin-right: 1.2em;
+  margin-right: 1.5em;
 }
 
 .trans {
@@ -132,7 +133,7 @@ header img {
 /* MIDDELPART */
 /* ************************* */
 section.middlepart {
-  margin-top: 36rem;
+  margin-top: 35rem;
 }
 .middlepart .images-part {
   display: flex;
@@ -248,6 +249,11 @@ footer span {
 @media screen and (max-width: 350px) {
   body {
     font-size: 14px;
+  }
+
+  * {
+    flex-direction: column;
+    text-align: center;
   }
 }
 
