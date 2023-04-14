@@ -263,18 +263,17 @@ footer span {
   }
 
   .container {
+    padding: 0.5rem 2rem;
     max-width: 100vw;
     margin: 0;
   }
 
-  .header img {
-    width: 2rem;
+  header img {
+    width: 2.5rem;
   }
 
   .upperpart {
     display: flex;
-
-    padding-left: 0.5rem;
   }
 
   .upperpart article {
@@ -291,6 +290,10 @@ footer span {
 
   .upperpart p {
     font-size: 1rem;
+  }
+
+  .btn {
+    font-size: 1.1rem;
   }
 }
 
