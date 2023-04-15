@@ -273,6 +273,7 @@ footer span {
   }
 
   .upperpart {
+    margin-top: 4rem;
     display: flex;
   }
 
@@ -281,10 +282,11 @@ footer span {
   }
 
   .upperpart picture {
-    flex: 2;
+    flex: 2.7;
   }
 
   .upperpart h1 {
+    padding-top: 4rem;
     font-size: 3rem;
   }
 
@@ -295,6 +297,16 @@ footer span {
   .btn {
     font-size: 1.1rem;
   }
+
+  .upper-keyboard-image {
+    width: 500px;
+    height: 26rem;
+  }
+
+  .upper-keyboard-image img {
+    object-fit: cover;
+    height: 27rem;
+    width:400px;
 }
 
 @media screen and (min-width: 992px) {
