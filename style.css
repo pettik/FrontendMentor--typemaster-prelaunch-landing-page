@@ -263,7 +263,7 @@ footer span {
   }
 
   .container {
-    padding: 0.5rem 2rem;
+    padding: 0.5rem 2.5rem;
     max-width: 770px;
     margin: 0 auto;
   }
@@ -278,11 +278,11 @@ footer span {
   }
 
   .upperpart article {
-    flex: 3;
+    flex: 3.2;
   }
 
   .upperpart picture {
-    flex: 2.7;
+    flex: 2.8;
   }
 
   .upperpart h1 {
@@ -297,29 +297,37 @@ footer span {
 
   .btn {
     font-size: 1.1rem;
-
   }
 
-  .buttons .btn{
-    font-size: .95rem;
-    padding:1.25rem 1.6rem
+  .upperpart .buttons {
+    margin-top: 2.4rem;
   }
 
-  .btn.orange{margin-right: 0;}
+  .buttons .btn {
+    font-size: 0.95rem;
+    padding: 1.25rem 1.8rem;
+  }
+
+  .btn.orange {
+    margin-right: 0.5rem;
+  }
 
   .upper-keyboard-image {
     width: 500px;
     height: 26rem;
+    transform: translateX(2.5rem);
+    padding-left: 0;
   }
 
   .upper-keyboard-image img {
     object-fit: cover;
     height: 27rem;
-    width:400px;
-}
+    width: 400px;
+  }
 
-section.middlepart{
-  margin-top:.5rem;
+  section.middlepart {
+    margin-top: 0.5rem;
+  }
 }
 
 @media screen and (min-width: 992px) {
