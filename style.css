@@ -326,7 +326,48 @@ footer span {
   }
 
   section.middlepart {
-    margin-top: 0.5rem;
+    margin-top: 0.7rem;
+  }
+
+  .middlepart .images-part {
+    height: 20rem;
+  }
+
+  .orange-image {
+    flex: 2;
+    transform: none;
+    width: 10rem;
+    overflow: hidden;
+    position: relative;
+    border-radius: 2rem;
+  }
+
+  .orange-image .middle-phone-keyboard-image img {
+    border: 2rem;
+    height: 100%;
+  }
+
+  .orange-image .middle-phone-keyboard-image img::before {
+    background: #f06717;
+    border-radius: 2rem;
+    position: absolute;
+    opacity: 0.6;
+  }
+
+  .image-area {
+    flex: 4;
+    padding-left: 1.8rem;
+    max-height: initial;
+    width: initial;
+  }
+
+  .image-area .middle-glass-image-image {
+    display: block;
+  }
+
+  .middle-glass-image-image img {
+    width: 100%;
+    height: auto;
   }
 }
 
