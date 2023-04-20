@@ -305,7 +305,7 @@ footer span {
 
   .buttons .btn {
     font-size: 0.95rem;
-    padding: 1.25rem 1.8rem;
+    padding: 1.25rem 1.9rem;
   }
 
   .btn.orange {
@@ -367,7 +367,24 @@ footer span {
 
   .middle-glass-image-image img {
     width: 100%;
-    height: auto;
+    height: 20.5rem;
+  }
+
+  .middlepart .text-part {
+    margin-top: 4.5rem;
+    text-align: left;
+    display: inline-flex;
+  }
+
+  .middlepart .text-part h2 {
+    font-size: 2rem;
+    margin-right: 6.2rem;
+  }
+
+  .middlepart .text-part p {
+    font-size: 1.03rem;
+    line-height: 1.6;
+    margin-top: 1rem;
   }
 }
 
