@@ -386,6 +386,44 @@ footer span {
     line-height: 1.6;
     margin-top: 1rem;
   }
+
+  /* BOTTOMPART */
+  .bottompart {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 9rem;
+    column-gap: 0.5rem;
+  }
+
+  .bottompart article {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .bottom-img {
+    margin-bottom: 4rem;
+    max-width: max-content;
+    padding: 1.2rem 1.2rem;
+    margin-bottom: 2.6rem;
+  }
+
+  .bottompart h3 {
+    font-size: 1.55rem;
+    margin-bottom: 1.75rem;
+  }
+
+  .bottompart p {
+    font-size: 1rem;
+    line-height: 1.55;
+    padding-right: 4.1rem;
+    margin-bottom: 4.3rem;
+  }
+
+  /* FOOTER */
+  footer {
+    padding-top: 5rem;
+    font-size: 1.05rem;
+  }
 }
 
 @media screen and (min-width: 992px) {
