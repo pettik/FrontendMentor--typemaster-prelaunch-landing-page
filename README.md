@@ -16,7 +16,7 @@ I can use any tools you like to help you complete the challenge. So if you've go
 
 # LIVE SITE:
 
-# ➡️ https://pettik--typemaster-landing-page.netlify.app ⬅️
+# ➡️ https://pettik-typemaster-landing-page.netlify.app/ ⬅️
 
 # DESKTOP version 🖥️ ⬇⬇⬇
 
@@ -36,4 +36,4 @@ I can use any tools you like to help you complete the challenge. So if you've go
 ### Links
 
 - Solution URL: [Link to solution](https://github.com/pettik/FrontendMentor--typemaster-prelaunch-landing-page)
-- Live Site URL: [Link to live site](https://pettik--typemaster-landing-page.netlify.app)
+- Live Site URL: [Link to live site](https://pettik-typemaster-landing-page.netlify.app/)
