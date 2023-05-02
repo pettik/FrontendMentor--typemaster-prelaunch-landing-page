@@ -1,6 +1,6 @@
 # Frontend Mentor - Typemaster pre-launch landing page solution
 
-![Design preview for the Fylo landing page with two column layout challenge](./design/desktop-preview.jpg)
+![Design preview for the Fylo landing page with two column layout challenge](./design/desktop-design.jpg)
 
 ## Welcome! 👋
 
@@ -14,7 +14,9 @@ This challenge is to build out this landing page and get it looking as close to 
 
 I can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
 
-# LIVE SITE: ➡️ https://pettik--typemaster-landing-page.netlify.app ⬅️
+# LIVE SITE:
+
+# ➡️ https://pettik--typemaster-landing-page.netlify.app ⬅️
 
 # DESKTOP version 🖥️ ⬇⬇⬇
 
